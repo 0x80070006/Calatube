@@ -6,7 +6,7 @@ Client Android Flutter qui affiche YouTube Music dans une WebView avec une inter
 
 ## Télécharger
 
-[Télécharger l'APK v2.0.0](https://github.com/0x80070006/Calatube/releases/download/v2.0.0/calatube_v2.0.0.apk) · [Toutes les versions](https://github.com/0x80070006/Calatube/releases)
+[Télécharger l'APK v2.0.0](https://github.com/0x80070006/Calatube/releases/download/v2.0.0/Calatube-v2.0.0.apk) · [Toutes les versions](https://github.com/0x80070006/Calatube/releases)
 
 L'APK est une publication distincte du code actuel : `pubspec.yaml` et la configuration Android indiquent encore `1.0.0`. La correspondance exacte entre l'APK v2.0.0 et les sources de `main` n'est donc pas établie.
 
