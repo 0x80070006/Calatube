@@ -2,13 +2,13 @@
 
 Client Android Flutter qui affiche YouTube Music dans une WebView avec une interface et des commandes média adaptées au téléphone.
 
-**État :** version APK publiée, mais compilation du dépôt et fonctionnement sur appareil non vérifiés dans cet audit. La disponibilité de YouTube Music et des fonctions de lecture dépend du service distant.
+**État :** projet expérimental. Un APK v2.0.0 est disponible. La lecture dépend de YouTube Music, un service distant qui peut changer à tout moment.
 
 ## Télécharger
 
 [Télécharger l'APK v2.0.0](https://github.com/0x80070006/Calatube/releases/download/v2.0.0/Calatube-v2.0.0.apk) · [Toutes les versions](https://github.com/0x80070006/Calatube/releases)
 
-L'APK est une publication distincte du code actuel : `pubspec.yaml` et la configuration Android indiquent encore `1.0.0`. La correspondance exacte entre l'APK v2.0.0 et les sources de `main` n'est donc pas établie.
+L'APK v2.0.0 a été publié à part : `pubspec.yaml` et la configuration Android indiquent encore `1.0.0`.
 
 ## Aperçu
 
@@ -31,7 +31,7 @@ flutter pub get
 flutter build apk --debug
 ```
 
-Le fichier obtenu se trouve normalement dans `build/app/outputs/flutter-apk/`. Le dépôt contient un `pubspec.lock` pour figer les dépendances Dart. Il ne contient pas de wrapper Gradle Android ; la compilation complète doit encore être vérifiée avant de distribuer un APK reconstruit.
+Le fichier obtenu se trouve normalement dans `build/app/outputs/flutter-apk/`. Le dépôt contient un `pubspec.lock` pour figer les dépendances Dart. Il ne contient pas encore de wrapper Gradle Android.
 
 ## Technologies
 
